@@ -1,0 +1,40 @@
+legalease/
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── config.py
+│   │   ├── services/
+│   │   │   ├── __init__.py
+│   │   │   ├── gemini_service.py
+│   │   │   └── document_service.py
+│   │   ├── prompts/
+│   │   │   ├── __init__.py
+│   │   │   └── legal_templates.py
+│   │   ├── schemas/
+│   │   │   ├── __init__.py
+│   │   │   └── document.py
+│   │   └── api/
+│   │       ├── __init__.py
+│   │       └── routes.py
+│   ├── tests/
+│   │   └── test_generation.py
+│   ├── requirements.txt
+│   └── Dockerfile
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   ├── components/
+│   │   │   ├── DocumentForm.jsx
+│   │   │   ├── PreviewEditor.jsx
+│   │   │   └── Navbar.jsx
+│   │   └── api/
+│   │       └── client.js
+│   ├── package.json
+│   ├── vite.config.js
+│   └── Dockerfile
+├── docker-compose.yml
+├── .env.example
+├── .gitignore
+└── README.md
